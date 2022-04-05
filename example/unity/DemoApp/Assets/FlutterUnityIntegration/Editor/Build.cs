@@ -48,7 +48,8 @@ public class Build : EditorWindow
 
         EditorUserBuildSettings.androidBuildSystem = AndroidBuildSystem.Gradle;
 
-        var options = BuildOptions.AcceptExternalModificationsToPlayer;
+        var options = BuildOptions.AllowDebugging;
+        EditorUserBuildSettings.exportAsGoogleAndroidProject = true;
         var report = BuildPipeline.BuildPlayer(
             GetEnabledScenes(),
             apkPath,
@@ -137,7 +138,7 @@ public class Build : EditorWindow
         if (Directory.Exists(path))
             Directory.Delete(path, true);
 
-        EditorUserBuildSettings.iOSBuildConfigType = iOSBuildType.Release;
+//        EditorUserBuildSettings.iOSBuildConfigType = iOSBuildType.Release;
 
         var options = BuildOptions.AcceptExternalModificationsToPlayer;
         var report = BuildPipeline.BuildPlayer(

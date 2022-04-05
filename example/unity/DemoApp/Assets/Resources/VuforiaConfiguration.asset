@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: AQaoXSj/////AAABmUqrOW+CTkqpqrNHFoxWK2YxOpJON7s/U4/R/kMtIJyU9RpXGgyN11GNOfjtoHZSQJ+BYGroZqXzcmOB0vQvOf2rsOhbvE9lgj7PAoT75txqXYFMDDULTUMcJGRky1qIGnhfj9UTMYUs1RralI8F+V6W3tOynJyPX5oVkw+zQmgWzyJgQsRVobROGKYtO0w4h6SNN+1uR91bkE/x95eyLg7WeS82vJ1AthGqfIV9yfDdecjluNF+EBublrMZSyLSfiFVo4Be0P2HcTq5XmhTCv9CgyC0S1OSA3jfLFXeGIWGw42KLO4KSkNXd2wt1SeAFNC2wpgN3z29f2yB3upzyIKh8HxsR85il23YeodGkB7a
+    ufoLicenseKey: QVo5S05vYi8vLy8vQUFBQUtMZm1hQnd5TWsrN3A3U2p0ZnMrK2xFdnZlN1RhL3pweWNaeFJubTl1eWpTOXV1ZjRhY2F3S2dNRE4yZGlEb2NQZ2d4OHk0aDBBMjB6aEIyRE85bzA1NVBsWGQ2dDNSNVAzKzNORk9ScHJkQ2l4WGY3R2lIQ2JaWWxUQ3orcS9zeWI5eFZqNWNlbzhOeC9MNjZNNGVHU1hGendKSmhxNWZRbjRBNEZDM2lIN2xLZStXNHRIT3kveHAwaDZHeDNIZHVQR2NZVTdIbFhIV2t1TUQ3WHhXT3haRjNmMVFYVmpESFJtYjloMDY0SmlvRlZxRnFRN2QrbW5yUDc2NlhxNlNnSW1YV3lCZHBjR2ZxVzExMjdJZkFpaEs5UnNNdlVPVUFRNFpnS3hVMVBoYmw5dzBXeUhmRXdDMExjd1d2SGt1d2xhd0EvOXJJZUFZRnNFZkQ5Y0F6Q2NENU1VSzlMUGNUdGVoNXRrQ0pKZDg=
+    delayedInitialization: 0
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 1
+    maxSimultaneousObjectTargets: 1
+    useDelayedLoadingObjectTargets: 0
+    modelTargetRecoWhileExtendedTracked: 1
+    version: 8.5.9
+    eulaAcceptedVersions: '{"Values":["0.0","8.0","7.2","7.5","7.1","8.1","7.7","7.9","8.2","8.3","8.5","8.6","9.0","9.1","9.3","9.4","9.2","9.5","9.6","8.4","7.6","7.8","2.9","8.7","9.7","9.8","10.4"]}'
+  database:
+    disableModelExtraction: 0
+  videoBackground:
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
+      type: 3}
+    videoBackgroundEnabled: 1
+  deviceTracker:
+    autoInitTracker: 0
+    autoStartTracker: 0
+    arcoreRequirement: 0
+    autoImportArcore: 0
+  smartTerrain:
+    autoInitTracker: 0
+    autoStartTracker: 0
+  webcam:
+    deviceNameSetInEditor: 
+    turnOffWebCam: 0
+    renderTextureLayer: 30
